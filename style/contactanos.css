@@ -31,7 +31,7 @@ header .imagen_logo{
     margin-top: 5%;
     margin-left: 5%;
 }
-.imagen_logo >img{
+.imagen_logo > a img{
     max-width: 100vw;
     min-width: 18vw;
     max-height: 10vh;
@@ -139,7 +139,7 @@ div .redes_sociales img{
         height: calc(100% - 15%);
     }
 
-    header .imagen_logo{
+    header a .imagen_logo{
         margin-top: 5%;
         margin-left: 13%;
     }
@@ -196,7 +196,7 @@ header .imagen_logo{
     margin-top: 0;
     margin-left: 25%;
 }
-.imagen_logo >img{
+.imagen_logo >a img{
     margin-top: -7%;
     max-width: 10vw;
     min-width: 10vw;

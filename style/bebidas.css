@@ -31,7 +31,7 @@ header .imagen_logo{
     margin-top: 5%;
     margin-left: 5%;
 }
-.imagen_logo >img{
+.imagen_logo >a img{
     max-width: 100vw;
     min-width: 18vw;
     max-height: 10vh;
@@ -210,6 +210,8 @@ section div img{
 section div h3{
     font-size: 1.8rem;
     text-align: center;
+    color: rgb(222, 2, 2);
+    text-shadow: 0.1rem 0.1rem 0.1rem rgb(0 0 0);
 }
 section div h4{
     font-size: 1.5rem;
@@ -239,7 +241,7 @@ section div b{
         height: calc(100% - 15%);
     }
 
-    header .imagen_logo{
+    header a .imagen_logo{
         margin-top: 5%;
         margin-left: 13%;
     }
@@ -325,7 +327,7 @@ section div b{
         margin-top: 0;
         margin-left: 25%;
     }
-    .imagen_logo >img{
+    .imagen_logo > a img{
         margin-top: -7%;
         max-width: 10vw;
         min-width: 10vw;
@@ -430,31 +432,33 @@ section div b{
         margin: 1% 2.5%;
         border: .1em solid black;
         padding: 5% 1%;
-        height: 56vh;
+        height: 90vh;
     }
 
     section div h3{
-        font-size: 2.5rem;
+        font-size: 3.5rem;
         text-align: center;
     }
 
     section div img{
         object-fit: fill;
+        border-radius: 1rem;
         width: 90%;
-        height: 25vh;
+        height: 30vh;
         margin: 3% 5% 2%;
     }
     
     section div h4{
-        font-size: 2.3rem;
+        font-size: 3rem;
         margin: 0;
     }
     section div p{
         font-size: 2rem;
+        height: 50vh;
     }
     
     section div b{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 

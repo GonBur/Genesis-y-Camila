@@ -31,7 +31,7 @@ header .imagen_logo{
     margin-top: 5%;
     margin-left: 5%;
 }
-.imagen_logo >img{
+.imagen_logo >a img{
     max-width: 100vw;
     min-width: 18vw;
     max-height: 10vh;
@@ -125,17 +125,50 @@ section>p{
     background-color: #e5effd;
 }
 
-figure {
+/* figure {
     margin-top: 5%;
     width: 100%;
     height: 40vh;
-}
-figure >img{
-    width: 100%;
-    height: 100%;
+} */
+main figure {border: solid rgb(255, 158, 158);
+    margin: 5% auto 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 35vh;
     border-radius: .7em;
+    background-image: url(../img/imagen_principal.png);
+    animation: cambiarImagenPrincipal 25s infinite;
 }
+@keyframes cambiarImagenPrincipal {
 
+    10%{
+        background-size: 100% 100%;
+        background-image: url(../img/imagen_principal.png);
+    }
+    16.6%{
+        background-size: 100% 100%;
+        background-image: url(../img/Home1.png);
+    }
+    33.2%{
+        background-size: 100% 100%;
+        background-image: url(../img/Home2.png);
+    }
+    49.8%{
+        background-size: 100% 100%;
+        background-image: url(../img/Home3.png);
+    }
+    66.4%{
+        background-size: 100% 100%;
+        background-image: url(../img/Home4.png);
+    }83%{
+        background-size: 100% 100%;
+        background-image: url(../img/Home5.png);
+    }99.6%{
+        background-size: 100% 100%;
+        background-image: url(../img/Home6.png);
+    }
+}
 .centrar_boton{
     text-align: center;
     margin-top: 5%
@@ -161,7 +194,7 @@ figure >img{
         height: calc(100% - 15%);
     }
 
-    header .imagen_logo{
+    header a .imagen_logo{
         margin-top: 5%;
         margin-left: 13%;
     }
@@ -191,15 +224,13 @@ section>p{
     margin-bottom: 3%;
 }
 
-figure {
-    width: 90%;
-    margin: 0 auto;
-    height: 40vh;
+main figure {
+    margin: 5% auto 0;
+    width: 80%;
+    height: 35vh;
+    border-radius: 1rem;
 }
-figure >img{
-    width: 100%;
-    height: 100%;
-}
+
 .centrar_boton{
     text-align: center;
     margin-top: 5%
@@ -223,7 +254,7 @@ figure >img{
         margin-top: 0;
         margin-left: 25%;
     }
-    .imagen_logo >img{
+    .imagen_logo >a img{
         margin-top: -7%;
         max-width: 10vw;
         min-width: 10vw;
@@ -294,14 +325,11 @@ section >p{
     text-shadow: 5px 10px 7px white, 0 0 1em white, 0 0 0.2em white;
 }
 
-figure{
+main figure {
     margin-top: -5%;
     width: 90%;
-    height: 50vh;
-}
-figure >img{
-    width: 100%;
-    height: 60vh;
+    height: 65vh;
+    border-radius: 1.5rem;
 }
 
 .centrar_boton {

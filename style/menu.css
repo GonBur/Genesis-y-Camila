@@ -31,7 +31,7 @@ header .imagen_logo{
     margin-top: 5%;
     margin-left: 5%;
 }
-.imagen_logo >img{
+.imagen_logo >a img{
     max-width: 100vw;
     min-width: 18vw;
     max-height: 10vh;
@@ -212,6 +212,8 @@ section div img{
 section div h3{
     font-size: 1.8rem;
     text-align: center;
+    color: rgb(222, 2, 2);
+    text-shadow: .1rem .1rem .1rem rgb(0, 0, 0);
 }
 section div h4{
     font-size: 1.5rem;
@@ -223,7 +225,7 @@ section div p{
     font-size: 1.2rem;
     text-align:justify;
     height: 20vh;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
 section div b{
@@ -327,7 +329,7 @@ section div b{
         margin-top: 0;
         margin-left: 25%;
     }
-    .imagen_logo >img{
+    .imagen_logo >a img{
         margin-top: -7%;
         max-width: 10vw;
         min-width: 10vw;
@@ -375,7 +377,7 @@ section div b{
 
     /* main - contenido principal */
     main{
-        padding-top: 15%;
+        padding-top: 12%;
     }
     main h2{
         font-size: 5rem;
@@ -394,10 +396,10 @@ section div b{
     main .div01{
         display: inline-block;
         width: 28%;
-        height: 120vh;
+        height: 135vh;
     }
     main .div01 section{
-        margin: 15% 0;
+        margin: 30% 0;
     }
 
     main .div01 p{
@@ -425,18 +427,18 @@ section div b{
         display: grid;
         grid-template-columns: 33% 33% 33%;
         width: 100%;
-        height: 120vh;
+        height: 135vh;
         margin: 0;
     }
     .div02 section >div{
-        margin: 1% 2.5%;
+        margin: 5% 2.5%;
         border: .1em solid black;
         padding: 5% 1%;
-        height: 56vh;
+        height: 60vh;
     }
 
     section div h3{
-        font-size: 2.5rem;
+        font-size: 3rem;
         text-align: center;
     }
 
@@ -448,15 +450,16 @@ section div b{
     }
     
     section div h4{
-        font-size: 2.3rem;
+        font-size: 2.5rem;
         margin: 0;
     }
     section div p{
-        font-size: 2rem;
+        font-size: 2.3rem;
+        overflow-y: scroll;
     }
     
     section div b{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 
