@@ -137,36 +137,36 @@ main figure {border: solid rgb(255, 158, 158);
     width: 95%;
     height: 35vh;
     border-radius: .7em;
-    background-image: url(../img/imagen_principal.png);
+    background-image: url("../img/imagen_principal.png");
     animation: cambiarImagenPrincipal 25s infinite;
 }
 @keyframes cambiarImagenPrincipal {
 
     10%{
         background-size: 100% 100%;
-        background-image: url(../img/imagen_principal.png);
+        background-image: url(" ../img/imagen_principal.png");
     }
     16.6%{
         background-size: 100% 100%;
-        background-image: url(../img/Home1.png);
+        background-image: url("../img/Home1.png");
     }
     33.2%{
         background-size: 100% 100%;
-        background-image: url(../img/Home2.png);
+        background-image: url("../img/Home2.png");
     }
     49.8%{
         background-size: 100% 100%;
-        background-image: url(../img/Home3.png);
+        background-image: url("../img/Home3.png");
     }
     66.4%{
         background-size: 100% 100%;
-        background-image: url(../img/Home4.png);
+        background-image: url("../img/Home4.png");
     }83%{
         background-size: 100% 100%;
-        background-image: url(../img/Home5.png);
+        background-image: url("../img/Home5.png");
     }99.6%{
         background-size: 100% 100%;
-        background-image: url(../img/Home6.png);
+        background-image: url("../img/Home6.png");
     }
 }
 .centrar_boton{
