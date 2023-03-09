@@ -222,8 +222,7 @@ section div h4{
 section div p{
     font-size: 1.2rem;
     text-align:justify;
-    height: 20vh;
-    overflow-y: auto;
+    height: 50vh;
 }
 
 section div b{
@@ -292,7 +291,7 @@ main .div02 >p{
 }
 
 .div02 section {
-    height: 210vh;
+    height: 250vh;
 }
 
 section div img{
